@@ -4,7 +4,8 @@
   1. Overview
   2. Structure
 2. [KPIs](#kpis)
-3. [Further Resources](#resources)
+3. [Proposed KPIs and Contributing](kpis-proposed.md)
+4. [Further Resources](#resources)
 
 ## Purpose
 As Nicole Forgresn so adroitly explains, [Metrics Shape Your Culture](https://vimeo.com/173607646). Once you start measuring something, and make it a metric of success, people will naturally start figuring out how to game the systems.**This isn't a bad thing!** If you set your metrics up so that gaming the system results in the desired outcome, then the metrics are a good thing.
@@ -127,7 +128,7 @@ To do this we need to aggregate several data points:
 
 #### Maturity
 
-## Hit By A Bus Factor<a id="#hit-by-a-bus"></a>
+### Hit By A Bus Factor<a id="#hit-by-a-bus"></a>
 Breaking down silos and sharing knowledge across a team improves the understanding of the codebase by the entire team, and accelerates the ability for the team to react to changes or outages. Having bottlenecks where only one team member understands a portion of the code results in risky scenarios where the team is held up from being able to delivery quickly. This is the [Hit By A Bus Factor](https://en.wikipedia.org/wiki/Bus_factor). How many of your team members are indespensible to the project? That is, if they were hit by a bus, would work come to a stop?
 
 #### Formula
@@ -158,3 +159,4 @@ Improvements in the Hit By A Bus Factor (HBaB) can be achieved by:
 ## Further Resources<a id="resources"></a>
 1. Forsgren, Nicole. *How Metrics Shape Your Culture* https://vimeo.com/173607646
 2. Humble, Jez. *Continuous Delivery* https://continuousdelivery.com/
+3. *Extreme Programming: Values, Prinicples, and Practices* https://www.altexsoft.com/blog/business/extreme-programming-values-principles-and-practices/
