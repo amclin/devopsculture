@@ -127,3 +127,6 @@ Calculated: Number of action items from last retrospective completed / Number of
 Frequency: Once per sprint
 Scale: Simple completion percentage per agile team per sprint
 Successful Outcome: Encourage identification of actionable learnings in each retrospective, and provide some incentive to put those learnings into action to continuously improve team performance.
+
+## Coding Standards
+

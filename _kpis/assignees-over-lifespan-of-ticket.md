@@ -34,7 +34,7 @@ If bug ticket capture and logging are totally automated, N<sub>r</sub> should be
 1. Look for ways to automate triage steps on bug tickets, so they get to the right person with fewer steps.
 2. Try adopting techniques to do [bug triage as a team](https://softwareengineering.stackexchange.com/questions/293339/when-to-have-bug-triage-meetings-in-scrum-process) so that everyone is aware of the ticket and it can get to the right person.
 3. Manage your flow by reducing the number of tickets in progress at once. Often teams bounce tickets around excessively based on capacity.
-4. Introduce Test Driven Development, so clear technical specs are produced before introducing functional code.
+4. Introduce Test Driven Development, so clear technical specs are produced before introducing functional code. This will reduce the back and forth caused by unclear requirements or testing assumptions.
 5. Automate unit testing.
 6. Automate QA validation.
 7. Keep team sizes small.
