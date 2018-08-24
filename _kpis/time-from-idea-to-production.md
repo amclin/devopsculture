@@ -13,7 +13,7 @@ Ttime from Idea to Production is quite simple to calculate - Simply put, it's th
 D<sub>start</sub>: Creation date of the idea ticket
 D<sub>prod</sub>: Date of *production* deployment
 
-<img src="https://latex.codecogs.com/gif.latex?R&space;=&space;D_{prod}&space;-&space;D_{start}" title="R = D_{prod} - D_{start}" />
+<img src="https://latex.codecogs.com/gif.latex?D&space;=&space;D_{prod}&space;-&space;D_{start}" title="D = D_{prod} - D_{start}" />
 
 ## Maturity Score
 For executive dashboards, Time From Idea to Production can be conslidated to a simple aggregated score, from 0 to 5, 5 being the maximum positive score, representing 1 day or less for a team to brainstorm an idea and get something working tested and live in production:
