@@ -36,7 +36,7 @@ Each KPI below is explained in how it should affect cultural change when adopted
 * [Release Size](_kpis/release-size.md)
 * [Code Refactoring](_kpis/code-refactoring.md)
 * [Hit By A Bus Factor](_kpis/hit-by-a-bus-factor.md)
-* [Collective Code Ownership](_kpis/collective-code-ownership.md)
+* [Collective Code Ownership](_kpis/collective-ownership.md)
 * [Coding Standards](_kpis/coding-standards.md)
 
 ## Further Resources<a id="resources"></a>

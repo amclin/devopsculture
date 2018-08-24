@@ -12,11 +12,14 @@ Jeff Bezos famously coined the two pizza rule to describe a maximum team size of
 ## Formula
 The total number of assignees can be determined through simple addition:
 * N<sub>a</sub>: Number of assignees over lifespan of ticket
-* N<sub>c</sub>: Number of code contributors on a ticket
-* N<sub>d</sub>: Number of people required to get ticket to production after the ticket is closed
+* N<sub>c</sub>: Number of code contributors on a ticket (not including those already counted)
+* N<sub>d</sub>: Number of people required to get ticket to production after the ticket is closed (not including those already counted)
 * N<sub>r</sub> = {1 | 0} : Add 1 if the ticket is manually reported and is never assigned back to the reporter. Leave 0 if ticket creation is automated, or if the reporter is already in N<sub>a</sub>.
+* N<sub>m</sub>: Number of distinct commenters on a ticket (not including those already counted)
 
-<img src="https://latex.codecogs.com/gif.latex?N&space;=&space;N_{r}&space;&plus;&space;N_{a}&space;&plus;&space;N_{c}&space;&plus;&space;N_{d}" title="N = N_{r} + N_{a} + N_{c} + N_{d}" />
+<img src="https://latex.codecogs.com/gif.latex?N&space;=&space;N_{r}&space;&plus;&space;N_{a}&space;&plus;&space;N_{c}&space;&plus;&space;N_{d}&space;&plus;&space;N_{m}" title="N = N_{r} + N_{a} + N_{c} + N_{d} + N_{m}" />
+
+Note that commentors on tickets are included in the score. Ideally the team should be able to deliver without additional outside inputs. If there is a Product Owner, they should be bringing the business insights and stakeholder interviews to the process. End-user input should be captured through surveys, usability testing, analytics, and other similar methods for sourcing data the team can leverage. This isn't to say that outside comments are a bad thing, but they should be captured and reported in a actionable way, rather than simply injecting people into the process that aren't part of the team.
 
 ## Maturity Score
 For executive dashboards, Maturity in assignees over the lifespan of a ticket can be conslidated to a simple aggregated score, from 0 to 5, 5 being the maximum positive score. The values should be capped at those limits.

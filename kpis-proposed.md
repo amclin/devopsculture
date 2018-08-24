@@ -12,6 +12,12 @@ Text of proposed KPI, how to measure it, calculations, outcomes, etc.
 
 As these ideas are reviewed and formalized, they'll get moved into the [main list of KPIs.](README.md#kpis)
 
+## Coding Standards
+How well does the team follow coding standards?
+
+## Ticket State Churn
+How much churn is there as a ticket bounces back and forth between states?
+
 ## Cycle time from Idea to DOR
 **Proposed By:** Ninad Patil
 
@@ -127,6 +133,4 @@ Calculated: Number of action items from last retrospective completed / Number of
 Frequency: Once per sprint
 Scale: Simple completion percentage per agile team per sprint
 Successful Outcome: Encourage identification of actionable learnings in each retrospective, and provide some incentive to put those learnings into action to continuously improve team performance.
-
-## Coding Standards
 
