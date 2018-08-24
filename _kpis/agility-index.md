@@ -1,8 +1,8 @@
 ---
 title: Agility Index
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Agility Index
 Due to the rapid pace of market change and customer demand, Agility is the single most important indicator of performance in a modern organization. As large organizations adopt digital transform strategies, and as small technology companies grow, it becomes imperitive to find some way to measure the agility of teams in a consistent objective way.
 
 Delivering Agility requires looking at our Key Performance Indicators with new eyes. What matters is not the total efficiency we can deliver, instead what matters is how quickly we can pivot to new directions. Our job as technologists has changed. We are now expected to deliver a **culture** of enablement and agility across the organization, not simply to build and install tools that make others more efficient.
@@ -10,17 +10,17 @@ Delivering Agility requires looking at our Key Performance Indicators with new e
 ## Formula
 The maturity scores we've introduced in all the other KPIs in this project have been designed so they can be aggregated into one collective score. The KPIs are also designed to reinforce each other, so that improvement in one area will manifest in improvements against other metrics as well.
 
-* [Time From Idea to Production](_kpis/time-from-idea-to-production.md)
-* [Number of Assignees Over Lifespan of Ticket](_kpis/assignees-over-lifespan-of-ticket.md)
-* [Westrum Cultural Survey Index](_kpis/westrum-cultural-survey.md)
-* [Rampup or Onboarding Index](_kpis/ramup.md)
-* [Time to Provision New Environment](_kpis/time-to-provision-environment.md)
-* [Agility Index](_kpis/agility-index.md)
-* [Release Size](_kpis/release-size.md)
-* [Code Refactoring](_kpis/code-refactoring.md)
-* [Hit By A Bus Factor](_kpis/hit-by-a-bus-factor.md)
-* [Collective Code Ownership](_kpis/collective-ownership.md)
-* [Coding Standards](_kpis/coding-standards.md)
+* [Time From Idea to Production](time-from-idea-to-production.html)
+* [Number of Assignees Over Lifespan of Ticket](assignees-over-lifespan-of-ticket.html)
+* [Westrum Cultural Survey Index](westrum-cultural-survey.html)
+* [Rampup or Onboarding Index](ramup.html)
+* [Time to Provision New Environment](time-to-provision-environment.html)
+* [Agility Index](agility-index.html)
+* [Release Size](release-size.html)
+* [Code Refactoring](code-refactoring.html)
+* [Hit By A Bus Factor](hit-by-a-bus-factor.html)
+* [Collective Code Ownership](collective-ownership.html)
+* [Coding Standards](coding-standards.html)
 
 <img src="https://latex.codecogs.com/gif.latex?A&space;=&space;\frac{M_{1}&space;&plus;&space;M_{2}&space;&plus;&space;M_{3}&space;&plus;&space;...&space;&plus;&space;M_{11}}{11}" title="A = \frac{M_{1} + M_{2} + M_{3} + ... + M_{11}}{11}" />
 

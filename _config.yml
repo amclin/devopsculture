@@ -12,35 +12,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: DevOpsCulture
+subtitle: KPIs can drive culture
+author: Anthony McLin
 email: your-email@example.com
+avatar: https://avatars3.githubusercontent.com/u/105728?s=460&v=4
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  DevOps requires a change in organization culture, not just implementing technologies. Discover
+  new KPIs for digital business success.
+baseurl: "/devopsculture" # the subpath of your site, e.g. /blog
+url: "https://amclin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: anthony_mclin
+github_username:  amclin
+
+# Social settings
+# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
+twitter_url: https://twitter.com/anthony_mclin
+linkedin_url: https://www.linkedin.com/in/anthonymclin/
+github_url: https://github.com/amclin/devopsculture
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: chrisbobbe/jekyll-theme-prologue
 plugins:
   - jekyll-feed
 
 collections:
+  sections:
+    output: true
   kpis:
     output: true
+  kpis-proposed:
+    output: true
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Google Analytics Tracking ID goes here:
+google_analytics:

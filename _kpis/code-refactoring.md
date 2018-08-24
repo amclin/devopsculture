@@ -1,8 +1,8 @@
 ---
 title: Code Refactoring Ratio
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Code Refactoring
 An agile team is receptive to change. And a good indication of this is that the team is improving the quality of their code over time. This should manifest through continuous refactoring. We can objectively measure code refactoring by looking for code change where unit tests do not require modification, and the unit tests continue to pass. That indicates that the code
 
 To do this we need to aggregate several data points:

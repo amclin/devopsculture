@@ -1,8 +1,8 @@
 ---
 title: Westrum Cultural Survey Index
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Westrum Cultural Survey Index
 The 2014 State of DevOps report revealed that for IT, job satisfaction is the single most important predictor of profitability, market share, and productivity. [Ron Westrum developed a model to measure job satisfaction](https://qualitysafety.bmj.com/content/13/suppl_2/ii22), and this [directly applies to DevOps](https://continuousdelivery.com/implementing/culture/).
 
 This is a simple survey which can be performed periodically to establish trends in the organization. Note that the numbers should not be used to focus on individuals, and over-assessment must be avoided for the data to have meaning. Try for a quarterly schedule, and aggregate the numbers across projects or teams to get a feel for the general pulse. There are 6 simple questions. On a scale of 7 (agree) to 1 (disagree), rate the following:

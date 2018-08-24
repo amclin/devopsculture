@@ -1,8 +1,8 @@
 ---
 title: Rampup Speed
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Rampup Speed
 > "You must learn from the mistakes of others. You can't possibly live long enough to make them all yourself."
 >
 > -- <cite>Sam Levenson</cite>
@@ -38,7 +38,7 @@ For executive dashboards, Maturity in Rampup Spped can be conslidated to a simpl
 <img src="https://latex.codecogs.com/gif.latex?M&space;=&space;\frac{M_{max}&space;-&space;M_{min}}{D_{max}&space;-&space;D_{ideal}}(D&space;-&space;D_{max})" title="M = \frac{M_{max} - M_{min}}{D_{max} - D_{ideal}}(D - D_{max})" />
 
 ## Improving
-1. A team with strong [Collective Code Ownership](collective-ownership.md) will be more likely to be good at coaching new team members.
+1. A team with strong [Collective Code Ownership](collective-ownership.html) will be more likely to be good at coaching new team members.
 2. Emphasize quality (rather than quantity) in documentation.
 3. Automate the developer setup process.
 4. Frequently test the developer setup process to ensure it's up to date.
@@ -49,4 +49,4 @@ For executive dashboards, Maturity in Rampup Spped can be conslidated to a simpl
 9. Automate everything.
 
 ## See Also
-1. Rampup Speed has underlying commonalities with [Time From Idea to Production](time-from-idea-to-production.md)
+1. Rampup Speed has underlying commonalities with [Time From Idea to Production](time-from-idea-to-production.html)

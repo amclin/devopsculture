@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{%- assign _kpis = site.kpis | sort: 'date' | reverse -%}
+{%- include header.html scrolly_nav=_kpis -%}
+<!-- Main -->
+<div id="main">
+	{%- if page.content != "" -%}
+		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
+	{%- endif -%}
+	<!-- KPIs List -->
+	{%- for _kpi in _kpis -%}
+		{%- capture _title -%}
+			<a href="{{- _kpi.url | absolute_url -}}">{{- _kpi.title -}}</a>
+		{%- endcapture -%}
+		{%- capture _subtitle -%}
+			{% if _kpi.author -%}{{- _kpi.author }} | {% endif %}
+			{{- _kpi.date | date_to_long_string -}}
+		{%- endcapture -%}
+		{%- capture _excerpt -%}<p>{{- _kpi.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
+		{%- capture _link -%}<a href="{{- _kpi.url | absolute_url -}}">read more</a>{%- endcapture -%}
+		{%- assign _content = _excerpt | append: _link -%}
+		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
+	{%- endfor -%}
+</div>

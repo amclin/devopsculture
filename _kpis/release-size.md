@@ -1,8 +1,8 @@
 ---
 title: Release Size
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Release Size
 One of the principles of Agile, DevOps, and Extreme Programming is to favor continuous integration and continuous deployment. To avoid monolithic pileups that are disruptive both the the software as well as the team, we should be practicing small, fast, *Lean* releases, ideally through Continuous Delivery. Once way to measure this is to check release size. We can measure the size of the release as a ratio of the number of lines changed in a release over the the total lines of code in the project. The smaller the amount of change in the release, then the more frequently we can reliably release.
 
 ## Formula
@@ -39,7 +39,7 @@ So if we established that for a project 1% is the highest amount of change we wa
 5. Implement end-to-end Continuous Delivery so that code changes can go to Production as soon as they've passed testing and been accepted.
 
 ## See Also
-* [Code Refactoring](code-refactoring.md)
+* [Code Refactoring](code-refactoring.html)
 
 
 

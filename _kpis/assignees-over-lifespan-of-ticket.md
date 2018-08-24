@@ -1,8 +1,8 @@
 ---
 title: Number of Assignees Over Lifespan of Ticket
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Number of Assignees Over Lifespan of Ticket
 If a ticket bounces around between a lot of people, that's a good indication that there may be problems with process, understanding, team coordination, or communication challenges. The fewer the people necessary to route and complete a ticket, the more certain we can be that the team is taking ownership of work and reducing unnecessary context switching.
 
 > Never have a meeting where two pizzas couldn't feed the entire group.
@@ -24,7 +24,7 @@ Note that commentors on tickets are included in the score. Ideally the team shou
 ## Maturity Score
 For executive dashboards, Maturity in assignees over the lifespan of a ticket can be conslidated to a simple aggregated score, from 0 to 5, 5 being the maximum positive score. The values should be capped at those limits.
 
-If bug ticket capture and logging are totally automated, N<sub>r</sub> should be 0. Likewise, if Continuous Integration and Continuous Deployment are in place, N<sub>d</sub> should be 0. If we take into consideration the related [Hit By a Bus Factor](hit-by-a-bus-factor.md) and [Collective Ownership](collective-ownership.md) concerns, then the ideal number of assignees is around 3. So we use that to determine the max score on our scale of 5. If our maximum ideal team size is 9, then we can use that to determine a minimum score of 0.
+If bug ticket capture and logging are totally automated, N<sub>r</sub> should be 0. Likewise, if Continuous Integration and Continuous Deployment are in place, N<sub>d</sub> should be 0. If we take into consideration the related [Hit By a Bus Factor](hit-by-a-bus-factor.html) and [Collective Ownership](collective-ownership.html) concerns, then the ideal number of assignees is around 3. So we use that to determine the max score on our scale of 5. If our maximum ideal team size is 9, then we can use that to determine a minimum score of 0.
 
 * T<sub>ideal</sub>: Minimum expected number of people touching a ticket
 * T<sub>max</sub>: Cutoff for max number of people touching a ticket
@@ -45,5 +45,5 @@ If bug ticket capture and logging are totally automated, N<sub>r</sub> should be
 9. Reduce interdependencies between teams.
 
 ## See Also
-* [Hit By a Bus Factor](hit-by-a-bus-factor.md)
-* [Collective Ownership](collective-ownership.md)
+* [Hit By a Bus Factor](hit-by-a-bus-factor.html)
+* [Collective Ownership](collective-ownership.html)

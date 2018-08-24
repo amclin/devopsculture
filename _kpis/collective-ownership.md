@@ -1,15 +1,15 @@
 ---
 title: Collective Code Ownership
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Collective Code Ownership
-A team should be small enough that everyone on the team feels responsible achieving the team's collective commitments. When the team feels a collective sense of ownership, they are more likely to assist each other proactively to achieve those goals. This in turn helps distribute knowledge and expertise across theam, mitigating the [Hit By a Bus](hit-by-a-bus-factor.md) problem, and simultaneously reducing churn caused by bouncing tickets across too many team members.
+A team should be small enough that everyone on the team feels responsible achieving the team's collective commitments. When the team feels a collective sense of ownership, they are more likely to assist each other proactively to achieve those goals. This in turn helps distribute knowledge and expertise across theam, mitigating the [Hit By a Bus](hit-by-a-bus-factor.html) problem, and simultaneously reducing churn caused by bouncing tickets across too many team members.
 
 ## Formula
 This KPI is more difficult to calculate, as it depends on your project structure. First you need to look at how your team classifies operational areas that they are responsbile for. For the purposes of this document, we'll call these operational areas "Components". Once the components are identified you can generate two different calculations to get insights into Collective Code Ownership.
 
 ### Component Participation
-For each component, calculate the number of people who have worked on that component. This is similar to the [Assignees Over the Lifespan of a Ticket](assignees-over-lifespan-of-ticket.md), but only people who take an active role in owning the ticket are included. This means only contributors or assignees can be considered.
+For each component, calculate the number of people who have worked on that component. This is similar to the [Assignees Over the Lifespan of a Ticket](assignees-over-lifespan-of-ticket.html), but only people who take an active role in owning the ticket are included. This means only contributors or assignees can be considered.
 
 * A: Number of assignees on a ticket
 * B: Number of code contributors on a ticket (not including those already counted)
@@ -57,5 +57,5 @@ Then blend the weighted average of components with the average individual partic
 5. Limit the number of initiatives active at once. Context switching devolves into pockets of team isloation.
 
 ## See Also
-1. [Hit By a Bus Factor](hit-by-a-bus-factor.md)
-2. Consider Collective Ownership in conjunction with [Assignees Over the Lifespan of a Ticket](assignees-over-lifespan-of-ticket.md). The goal of high collective ownership should be paired with the goal of as few assignees over the lifespan of the ticket as possible.
+1. [Hit By a Bus Factor](hit-by-a-bus-factor.html)
+2. Consider Collective Ownership in conjunction with [Assignees Over the Lifespan of a Ticket](assignees-over-lifespan-of-ticket.html). The goal of high collective ownership should be paired with the goal of as few assignees over the lifespan of the ticket as possible.

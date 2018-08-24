@@ -1,8 +1,8 @@
 ---
 title: Time to Provision New Environment
-layout: default
+layout: kpi
+author: Anthony McLin
 ---
-# Time to Provision New Environment
 As technologists we've spent decades getting good at developing and delivering efficiencies, reducing labor costs, and implementing automation. So it's no surprise that the part of DevOps we do best is automating our own tools. However, we often drop the ball on the parts of the pipeline that lie outside the software - the "hard" decisions that humans need to make around licensing, billing, scaling costs, etc.
 
 For teams to experiment and drive organizational agility, they often will need to rollout new hardware so they can test different features or options in parallel to the main code delivery stream. This will inevitably result in unnecessary bottlnecks if these need to be manually provisioned. The obvious first step is to script everything, used dynamic provisioning tools like virtual machines and containers, and put everything behind a few button clicks.
