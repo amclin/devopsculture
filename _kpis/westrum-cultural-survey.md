@@ -17,7 +17,7 @@ This is a simple survey which can be performed periodically to establish trends 
 ## Forumla
 Scoring this is simply a matter of averaging the values from the responses.
 
-<img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\frac{A_{1}&space;&plus;&space;A_{2}&space;&plus;&space;...&plus;&space;A_{7}}{7}" title="S = \frac{A_{1} + A_{2} + ...+ A_{7}}{7}" />
+<img src="https://latex.codecogs.com/gif.latex?S&space;=&space;\frac{A_{1}&space;&plus;&space;A_{2}&space;&plus;&space;...&plus;&space;A_{6}}{6}" title="S = \frac{A_{1} + A_{2} + ...+ A_{7}}{6}" />
 
 ## Maturity Score
 If you want to normalize this to a 0-5 scale, simply multiply by 5/7.
