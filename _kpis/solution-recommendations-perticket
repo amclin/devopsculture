@@ -1,0 +1,14 @@
+---
+title: Number of solutions recommeded for the issue for the Ticket
+layout: kpi
+author: Pushparajan
+---
+The teams should own solutions for the defined problem. capturing the number of solutions the team experiement with before providing the ideal solution to the customer is important 
+
+
+## Formula
+The total number of assignees can be determined through simple addition:
+* N<sub>a</sub>: Number of recommended solutions / approaches
+
+## Maturity Score
+This is not a direct metric from the JIRA ticket process, a custom metric need to be defined and tracked for this purpose. It does not mean that there should be n number of PoCs before implementing a solution, yet, the number of innovative solution will be the gauge and will have to be defined by the tech leads this is a subjective metric
