@@ -151,7 +151,7 @@ Frequency: Every sprit for every JIRA item
 Scale: Predict sales based on past sales data or based on projected data every sprint
 Successful Outcome: Cost of delay is not often calculated and features completed sit in test environments for months before hitting production. Predicting the cost of delay will help priortise product owners and system owners to take necesary actions to realise the business value quickly.
 
-## Calcualte benefits realised against prediction
+## Calculate benefits realised against prediction
 **Proposed By:** [Eswara K Palakollu](https://www.linkedin.com/in/eswara-kumar-palakollu-25613b3/)
 
 Calculated: Calculate benefits at a sizable feature level will help business to take right decisions.
