@@ -141,3 +141,26 @@ Frequency: Once per sprint
 Scale: Simple completion percentage per agile team per sprint
 Successful Outcome: Encourage identification of actionable learnings in each retrospective, and provide some incentive to put those learnings into action to continuously improve team performance.
 
+## Review Contribution Success <a id="review-contribution-success"></a>
+**Proposed By:** [Andrew Babaian](https://www.linkedin.com/in/andrew-babaian/)
+
+Calculation: Track the ratio in hours of an individual's time spent on peer reviews vs feature development (or bug fixing).
+Frequency: Once per sprint
+Scale: Ratio of hours spent doing either activity.
+Successful Outcome: Comparing iterative peer review feedback cycles and merging of features vs feature development contribution and bug introduction potential. Where should you maximize your capacity in hours for sprint planning? As a reviewer and tech manager role or a task taker? An additional inspection of feature closure to task estimate needs to be taken into account. 
+
+## Training Analysis <a id="training-analysis"></a>
+**Proposed By:** [Andrew Babaian](https://www.linkedin.com/in/andrew-babaian/)
+
+Calculation: Count the number of explicit eslint and unit test errors
+Frequency: Once per feature story
+Scale: Absolute, incremental
+Successful Outcome: Detect areas of improvement and suggest follow-up training or documentation based on a supporting AI database. Rule errors (eslint) and interpreter errors (unit tests) are accumulated during the feature development life cycle, then analyzed by trained AI models to suggest the required follow-up training. 
+
+## Jack of all Trades <a id="jack-of-all-trades"></a>
+**Proposed By:** [Andrew Babaian](https://www.linkedin.com/in/andrew-babaian/)
+
+Calculation: Remaining Hours Inspection 
+Frequency: Daily
+Scale: Absolute, incremental
+Successful Outcome: Shift capacity of resources where needed. Spikes, regression issues, and under-estimation may cause an increase of QA time that is needed to complete a sprint. Instead of pulling up features from the backlog for developers to work-on once they are free, shift roles to QA support to help close-out all testing of features for a completed sprint. This helps fulfill the sprint commitment, but also exposes developers to test-plans, automation scripts, and more thorough cross-browser testing. 
