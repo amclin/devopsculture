@@ -1,3 +1,10 @@
+---
+title: Proposed KPIs
+layout: page
+icon: fa-lightbulb-o
+order: 10
+---
+
 # Proposed KPIs
 The following KPIs were suggested by my cohort of fellow students particpating in SapientRazorfish's [CMTOu](https://www.whatsnextisnow.com/)
 
