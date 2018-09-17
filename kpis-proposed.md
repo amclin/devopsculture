@@ -164,3 +164,27 @@ Calculation: Remaining Hours Inspection
 Frequency: Daily
 Scale: Absolute, incremental
 Successful Outcome: Shift capacity of resources where needed. Spikes, regression issues, and under-estimation may cause an increase of QA time that is needed to complete a sprint. Instead of pulling up features from the backlog for developers to work-on once they are free, shift roles to QA support to help close-out all testing of features for a completed sprint. This helps fulfill the sprint commitment, but also exposes developers to test-plans, automation scripts, and more thorough cross-browser testing. 
+
+## Measure Meam Time to Repair (MTTR)
+**Proposed By:** [Eswara K Palakollu](https://www.linkedin.com/in/eswara-kumar-palakollu-25613b3/)
+
+Calculated: Measure MTTR effectively and calcualte benefits of improving MTTR and continuous improvement mindset.
+Frequency: Calculated continuously
+Scale: Measure in production and leverage Chaos Monkey
+Successful Outcome: Preferring MTTR over MTBF will help organisations to build continous learning and continuous improvement mindset. It will positively affect business outcomes with continuous deployments to production.
+
+## Measure cost of delay to help product owners to prioritise tasks
+**Proposed By:** [Eswara K Palakollu](https://www.linkedin.com/in/eswara-kumar-palakollu-25613b3/)
+
+Calculated: Measure cost of delay of features due to slow route to live processes post DOD.
+Frequency: Every sprit for every JIRA item
+Scale: Predict sales based on past sales data or based on projected data every sprint
+Successful Outcome: Cost of delay is not often calculated and features completed sit in test environments for months before hitting production. Predicting the cost of delay will help priortise product owners and system owners to take necesary actions to realise the business value quickly.
+
+## Calculate benefits realised against prediction
+**Proposed By:** [Eswara K Palakollu](https://www.linkedin.com/in/eswara-kumar-palakollu-25613b3/)
+
+Calculated: Calculate benefits at a sizable feature level will help business to take right decisions.
+Frequency: Every two weeks or live dashboards based on criticality of feature
+Scale: for every feature or epic
+Successful Outcome: It will help business stakeholders to visualise the benefits and monitor the benefits delivered by each of the features. It will help people to adopt data driven mindset and brings accountability.
