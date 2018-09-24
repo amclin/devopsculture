@@ -188,3 +188,49 @@ Calculated: Calculate benefits at a sizable feature level will help business to 
 Frequency: Every two weeks or live dashboards based on criticality of feature
 Scale: for every feature or epic
 Successful Outcome: It will help business stakeholders to visualise the benefits and monitor the benefits delivered by each of the features. It will help people to adopt data driven mindset and brings accountability.
+
+## Team Members contributing to a single (experimentation) story (ContributionToStories)
+**Proposed By:** [Marco Hampe](https://www.linkedin.com/in/marco-hampe-552662127/)
+
+We have DevOps and or cross-functional teams for a purpose: To limit handovers, to create business value and to avoid silos (or the unpleasant surprises when we act siloed). Stories that have only one contributor or perhaps 2, if we run in a traditional “handover to QA” (which anyway violates a “create quality at the source” if done solely) mode have a great chance to get pushed back at later point in time. Even if this is not happening, we’re not cross-functional and that’d at least mean behind our potential.
+
+How it would be calculated?
+For each story in JIRA, Trello or wherever – after a sprint it is measured how many people have “touched” a “Done”-Card. All cards that have only 1 or 2(incl. QA) contributors get a special assessment in a Sprint retrospective: Why has only one person seen or worked on that design/function/feature? How could the story been rewritten to share the insights more?
+
+Frequency of measurement?
+Continuously every sprint, with a post sprint assessment
+
+What scale it would use (min/max, percentage, etc)
+ContributionToStories = Cards done / TeamMembers commenting moving
+
+LackOfContribution(LOC) = all cards <=1/2 contributors
+
+## Waste Snake Time Consumed (WSTC)
+**Proposed By:** [Marco Hampe](https://www.linkedin.com/in/marco-hampe-552662127/)
+
+Some might already know the Waste Snake, where in an agile environment the team adds every work that was not part of the original sprint planning. I would recommend to take it a bit further – all work that is not contributing any value in addition. These are tasks like unplanned meetings, escalation and internal processes (like. Helpdesk ticket communication spent, Expenses, Unplanned meetings other task, Unplanned consulting calls with the client, etc.)
+
+How it would be calculated?
+People add extra cards into their Trello/JIRA board and create cards on how much tasks they work on that was not directly associated to the sprint. If working with story points add the story points needed for that, if working with time add the time it took.
+
+Frequency of measurement?
+Continuously every sprint, with a post sprint assessment
+
+What scale it would use (min/max, percentage, etc)
+At max 10% of the complete sprint working time/complete sprint time could be spent, that includes everything that is not in the sprint/iteration where the goal #1 is 0%. In the sprint/iteration retrospective the team clusters these tasks: Can they be forseen for the next sprints? Add them to a story and make it transparent.
+
+## Time Spent on Experimentation (TSE)
+**Proposed By:** [Marco Hampe](https://www.linkedin.com/in/marco-hampe-552662127/)
+
+Teams need a portion of the Sprin /Iteration time to really experiment. Google fostered that some time ago by having 20% of their employees’ time to spent on something that currently not working on, other companies might have an innovation Friday or innovation afternoon for that. As we often work in project(ish)-mode, we would need a time-boxed story of 5%-20% of teams time to really optimize and think of optimization where they can show the impact of the optimization in the Sprint/Iteration demo. This includes sharing inside of project/account or outside with the disciplines. If the time is not taken, this is a good sign that the team either overcommitted or had too much work on the Waste Snake. If the there is no impact or the impact is meaningless a scrum master, creative director, senior developer/architect is invited to a delivery review session to bring up some new ideas.
+
+How it would be calculated?
+A timeboxed story is added each sprint/iteration. Once the iteration/sprint is over, the team checks the card: How much time was spent? What is the extrapolated impact for the remaining project/program time?
+
+Frequency of measurement?
+Continuously every sprint, with a post sprint assessment
+
+What scale it would use (min/max, percentage, etc)
+Percentage of Time used of time boxed TSE card
+
+<50% Signal that team is either overworked or demotivated
