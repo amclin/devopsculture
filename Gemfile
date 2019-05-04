@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 gemspec
 
-gem "github-pages", group: :jekyll_plugins
+gem 'rake'
+gem 'jekyll'
 gem "jekyll-feed", "~> 0.10.0"
-gem "rake-jekyll"
