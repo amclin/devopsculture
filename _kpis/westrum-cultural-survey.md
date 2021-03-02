@@ -32,3 +32,8 @@ This should be a tool for a general pulse, so that trends can be observed, and a
 3. **Do not use this to justify punitive actions.** This assessent only provides value if teams feel they can provide honest answers. 
 4. **Do not overemphasize this as a team goal.** Overemphasis on positive outcomes can be just as detrimental as punitive emphasis, as it can lead to skewed results.
 5. If you have large enough teams, or enough data over time, apply data science practices to see if you can identify outliers in the data that can indicate particular areas of concern for particular teams, or disruptive events.
+
+## See Also
+* [A typology of organisational cultures](https://qualitysafety.bmj.com/content/13/suppl_2/ii22)
+* [DevOps culture: Westrum organizational culture](https://cloud.google.com/solutions/devops/devops-culture-westrum-organizational-culture)
+* [Implementing Continuous Delivery: Culture](https://continuousdelivery.com/implementing/culture/)
